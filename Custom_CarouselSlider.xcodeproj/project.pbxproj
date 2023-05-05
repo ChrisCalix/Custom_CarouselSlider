@@ -11,6 +11,11 @@
 		C3EFD9832A0488F90050B6F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9822A0488F90050B6F5 /* ContentView.swift */; };
 		C3EFD9852A0488FA0050B6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EFD9842A0488FA0050B6F5 /* Assets.xcassets */; };
 		C3EFD9882A0488FA0050B6F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EFD9872A0488FA0050B6F5 /* Preview Assets.xcassets */; };
+		C3EFD9922A04892E0050B6F5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9912A04892E0050B6F5 /* Home.swift */; };
+		C3EFD9942A048A0E0050B6F5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9932A048A0E0050B6F5 /* Card.swift */; };
+		C3EFD9962A048A200050B6F5 /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9952A048A200050B6F5 /* CarouselViewModel.swift */; };
+		C3EFD9982A04961C0050B6F5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9972A04961C0050B6F5 /* CardView.swift */; };
+		C3EFD99A2A0498D30050B6F5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9992A0498D30050B6F5 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C3EFD9822A0488F90050B6F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3EFD9842A0488FA0050B6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3EFD9872A0488FA0050B6F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3EFD9912A04892E0050B6F5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C3EFD9932A048A0E0050B6F5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C3EFD9952A048A200050B6F5 /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		C3EFD9972A04961C0050B6F5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C3EFD9992A0498D30050B6F5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		C3EFD97F2A0488F90050B6F5 /* Custom_CarouselSlider */ = {
 			isa = PBXGroup;
 			children = (
+				C3EFD9902A04891E0050B6F5 /* ViewModel */,
+				C3EFD98F2A04891B0050B6F5 /* Model */,
+				C3EFD98E2A0489170050B6F5 /* View */,
 				C3EFD9802A0488F90050B6F5 /* Custom_CarouselSliderApp.swift */,
 				C3EFD9822A0488F90050B6F5 /* ContentView.swift */,
 				C3EFD9842A0488FA0050B6F5 /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				C3EFD9872A0488FA0050B6F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3EFD98E2A0489170050B6F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFD9912A04892E0050B6F5 /* Home.swift */,
+				C3EFD9972A04961C0050B6F5 /* CardView.swift */,
+				C3EFD9992A0498D30050B6F5 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3EFD98F2A04891B0050B6F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFD9932A048A0E0050B6F5 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3EFD9902A04891E0050B6F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFD9952A048A200050B6F5 /* CarouselViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3EFD9832A0488F90050B6F5 /* ContentView.swift in Sources */,
+				C3EFD9922A04892E0050B6F5 /* Home.swift in Sources */,
 				C3EFD9812A0488F90050B6F5 /* Custom_CarouselSliderApp.swift in Sources */,
+				C3EFD99A2A0498D30050B6F5 /* DetailView.swift in Sources */,
+				C3EFD9962A048A200050B6F5 /* CarouselViewModel.swift in Sources */,
+				C3EFD9982A04961C0050B6F5 /* CardView.swift in Sources */,
+				C3EFD9942A048A0E0050B6F5 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
